@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Freehand&family=Josefin+Sans:ital,wght@1,300&family=Kanit:wght@500&family=Lato:ital,wght@0,900;1,400&family=Montserrat:wght@100&family=Open+Sans:ital,wght@0,300;1,400&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script&family=Freehand&family=Josefin+Sans:ital,wght@1,300&family=Kanit:wght@500&family=Lato:ital,wght@0,900;1,400&family=Montserrat:wght@100&family=Open+Sans:ital,wght@0,300;1,400&family=Raleway:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .umumidiv{
+        width: 30%;
+        height: 300px;
+        margin: auto;
+        position: relative;
+        top: 100px;
+        border: 5px solid #e16887;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .arxafon{
+        background-image: url(https://sammybeauty.ru/upload/iblock/91a/91ab66becaad922c2a73a6d2bdb6cdb8.jpg);
+        margin-top: 10px;
+        height: 525px;
+    }
+    .umumidiv h1{
+        text-align: center;
+        padding-top: 20px;
+        color: #e16887;
+        font-family: 'Raleway', sans-serif;
+    }
+    input{
+       margin-top: 20px;
+       border-radius: 5px;
+       border: 2px solid #e16887;
+       font-family: 'Raleway', sans-serif;
+       font-weight: 900;
+       padding-left: 10px;
+    }
+    .enter{
+        width: 50%;
+        margin-top: 20px;
+        background-color: #e16887;
+        color: white;
+        border: 2px solid #e16887;
+        border-radius: 10px;
+        font-family: 'Raleway', sans-serif;
+    }
+  .umumidiv  i{
+     right: 100px;
+     bottom: 78px;
+     font-size: 13px;
+     position: absolute;
+     color: rgb(114, 12, 114);
+    }
+    .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+        background-color: transparent;
+        border-color: transparent;
+      }
+      button{
+        box-shadow: none!important;
+      }
+      
